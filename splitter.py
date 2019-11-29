@@ -39,12 +39,14 @@ def get_frames(vpath, fpath, fps=-1, seconds=1, fprefix="img_"):
 
 
 def main():
-    get_frames("data/v1.mp4", "data/imgs/", fprefix="imgv1_", seconds=10)
-    get_frames("data/v2.mp4", "data/imgs/", fprefix="imgv2_", seconds=10)
-    get_frames("data/v3.mp4", "data/imgs/", fprefix="imgv3_", seconds=10)
-    get_frames("data/v4.mp4", "data/imgs/", fprefix="imgv4_", seconds=10)
-    get_frames("data/v5.mp4", "data/imgs/", fprefix="imgv5_", seconds=10)
-    get_frames("data/v6.mp4", "data/imgs/", fprefix="imgv6_", seconds=10)
+    get_frames("data/v15.mp4", "data/imgs/", fprefix="imgv16_", seconds=10)
+    get_frames("data/v17.mp4", "data/imgs/", fprefix="imgv17_", seconds=10)
+    get_frames("data/v18.mp4", "data/imgs/", fprefix="imgv18_", seconds=10)
+    get_frames("data/v19.mp4", "data/imgs/", fprefix="imgv19_", seconds=10)
+    get_frames("data/v20.mp4", "data/imgs/", fprefix="imgv20_", seconds=10)
+    get_frames("data/v21.mp4", "data/imgs/", fprefix="imgv21_", seconds=10)
+    get_frames("data/v22.mp4", "data/imgs/", fprefix="imgv22_", seconds=10)
+    # get_frames("data/v14.mp4", "data/imgs/", fprefix="imgv14_", seconds=10)
 
 
 if __name__ == "__main__":
