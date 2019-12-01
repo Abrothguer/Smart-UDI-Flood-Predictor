@@ -7,6 +7,7 @@
 __author__ = "Arthur Borges"
 
 # Imports
+import os
 import cv2
 
 
@@ -39,14 +40,18 @@ def get_frames(vpath, fpath, fps=-1, seconds=1, fprefix="img_"):
 
 
 def main():
-    get_frames("data/v15.mp4", "data/imgs/", fprefix="imgv16_", seconds=10)
-    get_frames("data/v17.mp4", "data/imgs/", fprefix="imgv17_", seconds=10)
-    get_frames("data/v18.mp4", "data/imgs/", fprefix="imgv18_", seconds=10)
-    get_frames("data/v19.mp4", "data/imgs/", fprefix="imgv19_", seconds=10)
-    get_frames("data/v20.mp4", "data/imgs/", fprefix="imgv20_", seconds=10)
-    get_frames("data/v21.mp4", "data/imgs/", fprefix="imgv21_", seconds=10)
-    get_frames("data/v22.mp4", "data/imgs/", fprefix="imgv22_", seconds=10)
-    # get_frames("data/v14.mp4", "data/imgs/", fprefix="imgv14_", seconds=10)
+
+    videos = filter(lambda x: x.find('.mp4') != -1, os.listdir('data'))
+    for video in videos:
+        zeros = len(video)
+        name = video.split('.')[0][1:]
+
+        if zeros == 7:
+            zeros = 0
+        else:
+            zeros = 1
+        print(name, zeros)
+        get_frames(f"data/{video}", "data/imgs/", fprefix=f"img_v{'0'*zeros}{name}_", seconds=10)
 
 
 if __name__ == "__main__":
