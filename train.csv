@@ -1,0 +1,41 @@
+Nome ,Classificação,Pluviosidade (mm/h),Altitude,Nível de Impermeabilização,Area de Risco,Final
+e1,enchente,30,-15,Alto,Altissimo,Sim
+e2,enchente,35,-19,Alto,Altissimo,Sim
+e3,enchente,15,-5,Alto,Alto,Sim
+e4,enchente,18,-8,Médio,Alto,Sim
+e5,enchente,28,-16,Alto,Altíssimo,Sim
+e6,enchente,22,-6,Alto,Médio,Sim
+e7,enchente,19,-6,Alto,Altíssimo,Sim
+e8,enchente,20,-5,Alto,Altíssimo,Sim
+e9,enchente,22,-3,Alto,Alto,Sim
+e10,enchente,31,-7,Alto,Alto,Sim
+e11,enchente,19,-3,Alto,Altíssimo,Sim
+e12,enchente,40,0,Alto,Altíssimo,Sim
+e13,enchente,53,-7,Médio,Médio,Sim
+e14,enchente,43,-8,Alto,Alto,Sim
+e15,enchente,39,-11,Alto,Alto,Sim
+e16,enchente,36,-12,Alto,Alto,Sim
+e17,enchente,37,-18,Alto,Alto,Sim
+e18,enchente,42,-4,Alto,Altíssimo,Sim
+e19,enchente,29,-13,Alto,Altíssimo,Sim
+e20,enchente,36,-4,Alto,Alto,Sim
+e21,enchente,27,-6,Alto,Altíssimo,Sim
+e22,enchente,31,-12,Alto,Alto,Sim
+e23,enchente,37,-10,Alto,Altíssimo,Sim
+e244,enchente,40,-7,Alto,Altíssimo,Sim
+e25,enchente,33,-11,Alto,Altíssimo,Sim
+e26,enchente,38,-3,Alto,Altíssimo,Sim
+e27,enchente,33,-5,Alto,Alto,Sim
+e28,enchente,21,-21,Alto,Altíssimo,Sim
+f1,Sem chuva,0,5,Alto,Baixo,Não
+f2,Sem chuva,0,6,Alto,Baixo,Não
+f3,Sem chuva,0,7,Alto,Baixo,Não
+f4,Sem chuva,0,12,Alto,Baixo,Não
+f5,Sem chuva,0,18,Alto,Baixo,Não
+f6,Sem chuva,0,6,Alto,Baixo,Não
+f7,Sem chuva,0,9,Alto,Baixo,Não
+f8,Sem chuva,0,12,Alto,Baixo,Não
+f9,Sem chuva,0,-3,Alto,Medio,Sim
+f10,Sem chuva,0,-5,Alto,Alto,Sim
+f11,Sem chuva,0,2,Alto,Baixo,Não
+f12,Sem chuva,0,4,Alto,Baixo,Não

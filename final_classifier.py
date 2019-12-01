@@ -10,8 +10,8 @@ from sklearn import metrics
 train = pd.read_csv('train.csv')
 test = pd.read_csv('test.csv')
 
-train.drop([''])
-test.drop([''])
+train.drop(['Nome'])
+test.drop(['Nome'])
 
 final = train['Final']
 Xtrain, Xtest, Ytrain, Ytest = train_test_split(train, final, test_size=0.2, random_state=4)
