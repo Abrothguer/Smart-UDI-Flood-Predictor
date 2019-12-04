@@ -17,7 +17,7 @@ from keras import backend as K
 APP = Flask(__name__)
 CORS(APP)
 
-CLIMATE_KEY = 'c89ebea0'
+CLIMATE_KEY = ''
 IMG_SIZE = 75
 NB_CHANNELS = 3
 BATCH_SIZE = 32
@@ -327,8 +327,8 @@ def send_message(msg):
     print('Actually sending it ....')
     # Your Account Sid and Auth Token from twilio.com/console
     # DANGER! This is insecure. See http://twil.io/secure
-    account_sid = 'AC3600578906547cadb70af55cb850eebe'
-    auth_token = '3407c1e7bca46941371f70d6788c0f49'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     numbers = ['+55034991301011', '+5534998826478', '+5534999770352']
